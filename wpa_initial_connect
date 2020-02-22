@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo wpa_supplicant -i wlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+#-d=debug, -c=config-file, b=run as daemon
